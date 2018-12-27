@@ -10,7 +10,7 @@ keras,
 math,
 os
 ### Description
-Contains two files, each of which are based around a central script which provides a intermediate layer between a learning algorithm and the game itself. The intermediate script converts numerical inputs into actions, and processes the gamestate to return a pixel map which a learning algorithm may take as input. Marie proved capable of using a learning military model alongside a non learning economic model to defeat all the standard in game AI. Osal is currently experiencing issues with feedback loops and tends to default towards inneffective strategies.
+Contains two bots, Marie and Osal, each of which are based around a central script which provides an intermediate layer between a learning algorithm and the game itself. The intermediate script converts numerical inputs into actions, and processes the gamestate to return a pixel map which a learning algorithm may take as input. Marie proved capable of using a learning military model alongside a non learning economic model to defeat all the standard in game AI. Osal is currently experiencing issues with feedback loops and tends to default towards inneffective strategies.
 ### Marie
 Marie is named in the style of Human AI within the Halo Franchise. Marie is focused on using the Terran faction.  Rather than giving a single algorithm complete control, Marie is structured such that different algorithms are responsible for the military and economic aspects of the game, allowing them to hopefully be trained individually, such that the changes made in a single area are more clear.
 ### Osal
